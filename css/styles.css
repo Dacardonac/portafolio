@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: #008584;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav .navbar:hover {
+    background-color: #006666;
+}
+
+.img_header {
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(10px 10px 20px white);
+}
+
+main {
+    border: 1px solid #008584;
+}
+
+section {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #333;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+}
+
+#img_daniel {
+    filter: drop-shadow(10px 10px 20px #008584);
+    width: 300px;
+}
+
+.introduccion {
+    margin: 80px 150px;
+}
+
+.introduccion h1 {
+    font-size: 50px;
+}
+
+.introduccion h2 {
+    font-size: 25px;
+    margin-bottom: 1.5em;
+}
+
+.introduccion p {
+    font-size: 1.5em;
+    margin-bottom: 1.7em;
+}
+
+#sobremi {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+
+#sobremi h2 {
+    font-size: 3.125em;
+}
+
+#sobremi p {
+    font-size: 18px;
+}
+
+#foto_sobremi {
+    filter: drop-shadow(10px 10px 20px #008584);
+    width: 450px;
+}
+
+footer {
+    background-color: #008584;
+    color: #fff;
+}
+
+.redes_sociales, a {
+    text-align: center;
+    color: #fff;
+    margin: 10px 10px 0 10px;
+}
+
+.contacto, a {
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+
+footer p {
+    margin: 10px;
+    color: #fff;
+}
+
+footer img {
+    width: 150px;
+    margin: 10px;
+}
+
+.copy {
+    text-align: center;
+}
